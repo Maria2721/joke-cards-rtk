@@ -1,7 +1,15 @@
+import { Routes, Route } from 'react-router-dom';
+
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+
 function App() {
   return (
     <>
-      <h1>Start!</h1>
+      <Header />
+      <Main>
+
+      </Main>
     </>
   );
 }
